@@ -1,0 +1,103 @@
+<html>
+<style>
+  html {
+    font-size: 7px;
+    font-weight: bold;
+  }
+
+  .p {
+    font-size: 15rem;
+    text-align: center;
+    margin: 0;
+    line-height: 15rem;
+    /* margin-top: 0rem; */
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .green {
+    color: green;
+  }
+
+  .button {
+    font-size: 5rem;
+    padding: 3rem 5rem;
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    cursor: help;
+    margin: 2rem auto;
+    color: white;
+    /* margin-top: 2.5rem; */
+  }
+
+  .red-bg {
+    background-color: red;
+    border: 2px solid red;
+
+  }
+
+  .green-bg {
+    background-color: green;
+    border: 2px solid green;
+  }
+
+  .button:active {
+    background-color: white;
+    color: black;
+  }
+
+  #main {
+    /* display: grid; */
+    /* grid-auto-columns: 1fr 1fr; */
+  }
+
+  #left {
+    /* grid-column: 1/2; */
+  }
+
+  #right {
+    /* grid-column: 2/3; */
+  }
+</style>
+
+<head>
+  <link rel="icon" href="https://www.stickpng.com/assets/images/5a4613ddd099a2ad03f9c994.png">
+  <title>Who Will Answer ?</title>
+</head>
+
+<body>
+  <!-- <button class="button whoWillAnswer">Who Will Answer ?</button> -->
+  <div id="main">
+    <div id="left">
+      <button class="button whoWillAnswer red-bg">Who Will Answer ?</button>
+      <p id="answer1" class='p red '>?????</p>&nbsp;&nbsp;
+      <!-- <p id="answer2" class='p red '>?????</p> -->
+
+    </div>
+    <div id="right">
+      <button class="button pickAnotherOne green-bg">Pick another one</button>
+      <p id="answer3" class='p green'>?????</p>
+      <p id="answer4" class='p green'>?????</p>
+    </div>
+  </div>
+
+
+  <br>
+  <p style='text-align: center;'>&copy; 2020 Mohammad Jouza<p>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <script src="whoWillAnswer.js"></script>
+</body>
+
+</html>
